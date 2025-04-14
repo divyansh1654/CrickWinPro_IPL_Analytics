@@ -416,7 +416,7 @@ with col1:
         temp = weather_data['temp']
         desc = weather_data['description'].lower()
         
-        if humidity < 30:
+        if humidity < 31:
             st.write("Low humidity; dry pitch may favor fast bowlers and provide extra bounce.")
         elif 30 <= humidity <= 60:
             st.write("Moderate humidity; pitch conditions are balanced, benefiting both batsmen and bowlers.")
